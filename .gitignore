@@ -1,0 +1,27 @@
+# Arduino / ESP32
+*.bin
+*.elf
+*.hex
+*.map
+
+# Build folders
+build/
+dist/
+
+# PlatformIO
+.pio/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Credentials
+secrets.h
+credentials.h
+config.h
