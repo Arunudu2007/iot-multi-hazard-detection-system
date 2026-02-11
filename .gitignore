@@ -1,27 +1,41 @@
-# Arduino / ESP32
+# ----------------------------
+# Arduino / ESP32 Build Files
+# ----------------------------
 *.bin
 *.elf
 *.hex
 *.map
+*.eep
+*.lst
 
-# Build folders
+# ----------------------------
+# Build Folders
+# ----------------------------
 build/
 dist/
-
-# PlatformIO
 .pio/
 
-# VS Code
+# ----------------------------
+# IDE Files
+# ----------------------------
 .vscode/
+.idea/
 
-# OS Files
+# ----------------------------
+# OS Generated Files
+# ----------------------------
 .DS_Store
 Thumbs.db
 
+# ----------------------------
 # Logs
+# ----------------------------
 *.log
 
-# Credentials
+# ----------------------------
+# Credentials / Secrets
+# ----------------------------
 secrets.h
 credentials.h
 config.h
+wifi_credentials.h
